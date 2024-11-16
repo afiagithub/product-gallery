@@ -2,6 +2,7 @@
     {
         "id": 1,
         "name": "Smartphone X1",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 699,
         "description": "A high-end smartphone with stunning features and sleek design.",
         "category": "Mobile",
@@ -15,6 +16,7 @@
     {
         "id": 2,
         "name": "Ultra HD 4K TV",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 1299,
         "description": "Experience cinematic visuals with this Ultra HD 4K Smart TV.",
         "category": "Television",
@@ -26,6 +28,7 @@
     {
         "id": 3,
         "name": "Noise Cancelling Headphones",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 199,
         "description": "Immersive sound quality with superior noise-canceling technology.",
         "category": "Accessories",
@@ -39,6 +42,7 @@
     {
         "id": 4,
         "name": "Gaming Laptop GX",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 1499,
         "description": "Powerful gaming laptop with advanced cooling and performance.",
         "category": "Laptop",
@@ -51,6 +55,7 @@
     {
         "id": 5,
         "name": "Smart Home Speaker",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 99,
         "description": "Control your smart home with this voice-enabled speaker.",
         "category": "Smart Home",
@@ -64,6 +69,7 @@
     {
         "id": 6,
         "name": "4K Action Camera",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 399,
         "description": "Capture every moment in stunning 4K resolution.",
         "category": "Camera",
@@ -76,6 +82,7 @@
     {
         "id": 7,
         "name": "Wireless Earbuds Pro",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 149,
         "description": "Compact wireless earbuds with crystal-clear sound.",
         "category": "Accessories",
@@ -89,6 +96,7 @@
     {
         "id": 8,
         "name": "Fitness Tracker Band",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 59,
         "description": "Track your fitness activities with this sleek band.",
         "category": "Wearable",
@@ -102,6 +110,7 @@
     {
         "id": 9,
         "name": "Portable Bluetooth Speaker",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 129,
         "description": "Compact and durable speaker with powerful sound.",
         "category": "Accessories",
@@ -115,6 +124,7 @@
     {
         "id": 10,
         "name": "Smartwatch Alpha",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 199,
         "description": "Stay connected and track your health with this smartwatch.",
         "category": "Wearable",
@@ -128,6 +138,7 @@
     {
         "id": 11,
         "name": "Electric Scooter Z3",
+        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 799,
         "description": "Eco-friendly and lightweight electric scooter for city commuting.",
         "category": "Transport",
@@ -140,11 +151,12 @@
     },
     {
         "id": 12,
-        "name": "Drone QuadX",
-        "price": 1299,
-        "description": "Advanced drone with 4K camera and enhanced flight stability.",
-        "category": "Drone",
-        "company": "SkyEye",
+        "name": "Samsung Galaxy A51",
+        "image": "https://i.ibb.co.com/dkMRsy6/phone1-preview-rev-1.png",
+        "price": 299,
+        "description": "A high-end smartphone with stunning features and sleek design.",
+        "category": "Mobile",
+        "company": "TechnoWare",
         "availableColors": [
             "White",
             "Black"

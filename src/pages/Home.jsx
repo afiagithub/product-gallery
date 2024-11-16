@@ -2,6 +2,7 @@ import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { useState } from 'react';
 import ProductCard from '../components/ProductCard';
+import LoadingSpinner from '../components/LoadingSpinner';
 
 const Home = () => {
     const [techList, setTechList] = useState([]);
@@ -12,6 +13,10 @@ const Home = () => {
             setTechList(res.data);
         }
     })
+
+    if (isLoading) {
+        return <LoadingSpinner/>
+    }
     return (
         <div className='max-w-6xl mx-auto'>
             <h1 className="text-center text-4xl font-fira font-bold mb-5 mt-10 font-rubik">Showcasing Our Product</h1>
