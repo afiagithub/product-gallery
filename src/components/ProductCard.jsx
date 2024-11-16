@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const ProductCard = ({ tech }) => {
     const { name, image, description, price, category, company, availableColors } = tech;
@@ -19,8 +20,8 @@ const ProductCard = ({ tech }) => {
                 </div>
                 <p className="font-bold">Category: <span className="badge text-[#921A40] bg-[#e6c0cc] 
                 font-semibold">{category}</span></p>
-                <button className="mt-5 btn bg-[#921A40] text-white text-lg border-2 border-[#921A40] 
-                hover:border-[#921A40] hover:bg-transparent hover:text-[#921A40]">View Details</button>
+                <Link to={`/tech-details/${tech.id}`} className="mt-5 btn bg-[#921A40] text-white text-lg border-2 border-[#921A40] 
+                hover:border-[#921A40] hover:bg-transparent hover:text-[#921A40]">View Details</Link>
             </div>
         </div>
     );
