@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone X1",
+        "price": 699,
+        "description": "A high-end smartphone with stunning features and sleek design.",
+        "category": "Mobile",
+        "company": "TechnoWare",
+        "availableColors": [
+            "Black",
+            "Silver",
+            "Blue"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Ultra HD 4K TV",
+        "price": 1299,
+        "description": "Experience cinematic visuals with this Ultra HD 4K Smart TV.",
+        "category": "Television",
+        "company": "ViewMax",
+        "availableColors": [
+            "Black"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Noise Cancelling Headphones",
+        "price": 199,
+        "description": "Immersive sound quality with superior noise-canceling technology.",
+        "category": "Accessories",
+        "company": "SoundPlus",
+        "availableColors": [
+            "Red",
+            "White",
+            "Black"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Gaming Laptop GX",
+        "price": 1499,
+        "description": "Powerful gaming laptop with advanced cooling and performance.",
+        "category": "Laptop",
+        "company": "GameEdge",
+        "availableColors": [
+            "Black",
+            "Grey"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Smart Home Speaker",
+        "price": 99,
+        "description": "Control your smart home with this voice-enabled speaker.",
+        "category": "Smart Home",
+        "company": "HomeBot",
+        "availableColors": [
+            "White",
+            "Black",
+            "Grey"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "4K Action Camera",
+        "price": 399,
+        "description": "Capture every moment in stunning 4K resolution.",
+        "category": "Camera",
+        "company": "AdventureCam",
+        "availableColors": [
+            "Black",
+            "Yellow"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Wireless Earbuds Pro",
+        "price": 149,
+        "description": "Compact wireless earbuds with crystal-clear sound.",
+        "category": "Accessories",
+        "company": "AudioVibe",
+        "availableColors": [
+            "Black",
+            "White",
+            "Pink"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Fitness Tracker Band",
+        "price": 59,
+        "description": "Track your fitness activities with this sleek band.",
+        "category": "Wearable",
+        "company": "FitPulse",
+        "availableColors": [
+            "Black",
+            "Green",
+            "Blue"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Portable Bluetooth Speaker",
+        "price": 129,
+        "description": "Compact and durable speaker with powerful sound.",
+        "category": "Accessories",
+        "company": "BeatBox",
+        "availableColors": [
+            "Red",
+            "Black",
+            "Grey"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Smartwatch Alpha",
+        "price": 199,
+        "description": "Stay connected and track your health with this smartwatch.",
+        "category": "Wearable",
+        "company": "ChronoTech",
+        "availableColors": [
+            "Silver",
+            "Black",
+            "Rose Gold"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Electric Scooter Z3",
+        "price": 799,
+        "description": "Eco-friendly and lightweight electric scooter for city commuting.",
+        "category": "Transport",
+        "company": "EcoRide",
+        "availableColors": [
+            "Black",
+            "White",
+            "Red"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Drone QuadX",
+        "price": 1299,
+        "description": "Advanced drone with 4K camera and enhanced flight stability.",
+        "category": "Drone",
+        "company": "SkyEye",
+        "availableColors": [
+            "White",
+            "Black"
+        ]
+    }
+]
