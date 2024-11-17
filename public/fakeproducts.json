@@ -11,7 +11,8 @@
             "Black",
             "Silver",
             "Blue"
-        ]
+        ],
+        "ratings": 4
     },
     {
         "id": 2,
@@ -23,7 +24,8 @@
         "company": "ViewMax",
         "availableColors": [
             "Black"
-        ]
+        ],
+        "ratings": 3
     },
     {
         "id": 3,
@@ -37,7 +39,8 @@
             "Red",
             "White",
             "Black"
-        ]
+        ],
+        "ratings": 5
     },
     {
         "id": 4,
@@ -50,7 +53,8 @@
         "availableColors": [
             "Black",
             "Grey"
-        ]
+        ],
+        "ratings": 4
     },
     {
         "id": 5,
@@ -64,7 +68,8 @@
             "White",
             "Black",
             "Grey"
-        ]
+        ],
+        "ratings": 4
     },
     {
         "id": 6,
@@ -77,7 +82,8 @@
         "availableColors": [
             "Black",
             "Yellow"
-        ]
+        ],
+        "ratings": 3
     },
     {
         "id": 7,
@@ -91,7 +97,8 @@
             "Black",
             "White",
             "Pink"
-        ]
+        ],
+        "ratings": 5
     },
     {
         "id": 8,
@@ -105,7 +112,8 @@
             "Black",
             "Green",
             "Blue"
-        ]
+        ],
+        "ratings": 3
     },
     {
         "id": 9,
@@ -119,7 +127,8 @@
             "Red",
             "Black",
             "Grey"
-        ]
+        ],
+        "ratings": 4
     },
     {
         "id": 10,
@@ -133,7 +142,8 @@
             "Silver",
             "Black",
             "Rose Gold"
-        ]
+        ],
+        "ratings": 4
     },
     {
         "id": 11,
@@ -147,7 +157,8 @@
             "Black",
             "White",
             "Red"
-        ]
+        ],
+        "ratings": 4
     },
     {
         "id": 12,
@@ -160,6 +171,7 @@
         "availableColors": [
             "White",
             "Black"
-        ]
+        ],
+        "ratings": 3
     }
 ]

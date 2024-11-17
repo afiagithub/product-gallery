@@ -51,6 +51,10 @@ const Home = () => {
             const sortedTechList = [...allTechs].sort((a, b) => b.price - a.price);
             setTechList(sortedTechList)
         }
+        else if(sortVal == 3){
+            const sortedTechList = [...allTechs].sort((a, b) => b.ratings - a.ratings);
+            setTechList(sortedTechList)
+        }
     }
     
     if (isLoading) {
