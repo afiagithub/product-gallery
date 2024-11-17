@@ -38,6 +38,20 @@ const Home = () => {
         const newTech = allTechs.filter(tech => tech.price >= min_price && tech.price <= max_price);
         setTechList(newTech);        
     }
+
+    const handleSort = async (e) => {
+        e.preventDefault();
+        const sortVal = e.target.value;
+        if(sortVal == 1){
+            const sortedTechList = [...allTechs].sort((a, b) => a.price - b.price);            
+            setTechList(sortedTechList)
+            
+        }        
+        else if(sortVal == 2){
+            const sortedTechList = [...allTechs].sort((a, b) => b.price - a.price);
+            setTechList(sortedTechList)
+        }
+    }
     
     if (isLoading) {
         return <LoadingSpinner />
@@ -71,12 +85,12 @@ const Home = () => {
                 </form>
             </div>
             <div className="flex flex-col lg:flex-row justify-between items-center gap-5 mb-10 px-10 lg:px-4">
-                <select className="p-3 text-[#921A40] font-semibold border-2 border-[#921A40] 
+                <select onChange={handleSort} className="p-3 text-[#921A40] font-semibold border-2 border-[#921A40] 
                 hover:text-[#921A40] hover:bg-transparent hover:border-[#921A40] rounded-lg">
                     <option selected disabled>Sort By</option>
                     <option value="1">Lowest Price to Highest</option>
                     <option value="2">Highest Price to Lowest</option>
-                    <option value="3">Newest first</option>
+                    <option value="3">High Rating</option>
                 </select>
                 <form onSubmit={handleSearch} className="flex flex-row gap-4 items-center justify-end">
                     <input type="text" name="name" placeholder="Search" className="input input-bordered w-48 md:w-auto" />
@@ -86,7 +100,7 @@ const Home = () => {
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 place-items-center'>
                 {
-                    techList.map(tech => <ProductCard key={tech.id} tech={tech} />)
+                    techList.map((tech, idx) => <ProductCard key={tech.id} tech={tech} />)
                 }
             </div>
         </div>
