@@ -1,6 +1,6 @@
 [
     {
-        "id": 20,
+        "id": 1,
         "name": "Smartphone X1",
         "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
         "price": 699,
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "name": "Ultra HD 4K TV",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/tZWqsMg/tv.jpg",
         "price": 1299,
         "description": "Experience cinematic visuals with this Ultra HD 4K Smart TV.",
         "category": "Television",
@@ -30,7 +30,7 @@
     {
         "id": 3,
         "name": "Noise Cancelling Headphones",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/1sMyjwH/headphone.jpg",
         "price": 199,
         "description": "Immersive sound quality with superior noise-canceling technology.",
         "category": "Accessories",
@@ -45,7 +45,7 @@
     {
         "id": 4,
         "name": "Gaming Laptop GX",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/Y7vwQPM/laptop1.jpg",
         "price": 1499,
         "description": "Powerful gaming laptop with advanced cooling and performance.",
         "category": "Laptop",
@@ -58,23 +58,23 @@
     },
     {
         "id": 5,
-        "name": "Smart Home Speaker",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
-        "price": 99,
-        "description": "Control your smart home with this voice-enabled speaker.",
-        "category": "Smart Home",
+        "name": "UltraBook Pro 15",
+        "image": "https://i.ibb.co.com/vPtJHZ2/laptop2.jpg",
+        "price": 1099,
+        "description": "A sleek and lightweight laptop with powerful performance and extended battery life.",
+        "category": "Laptop",
         "company": "HomeBot",
         "availableColors": [
-            "White",
-            "Black",
-            "Grey"
+            "Silver",
+            "Space Grey",
+            "Black"
         ],
         "ratings": 4
     },
     {
         "id": 6,
         "name": "4K Action Camera",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/GxsdH4x/camera.jpg",
         "price": 399,
         "description": "Capture every moment in stunning 4K resolution.",
         "category": "Camera",
@@ -88,7 +88,7 @@
     {
         "id": 7,
         "name": "Wireless Earbuds Pro",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/vXVFCXq/earbud.jpg",
         "price": 149,
         "description": "Compact wireless earbuds with crystal-clear sound.",
         "category": "Accessories",
@@ -103,7 +103,7 @@
     {
         "id": 8,
         "name": "Fitness Tracker Band",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/5BM8p0V/watch1.jpg",
         "price": 59,
         "description": "Track your fitness activities with this sleek band.",
         "category": "Wearable",
@@ -118,7 +118,7 @@
     {
         "id": 9,
         "name": "Portable Bluetooth Speaker",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/sVFgLt9/speaker.jpg",
         "price": 129,
         "description": "Compact and durable speaker with powerful sound.",
         "category": "Accessories",
@@ -133,7 +133,7 @@
     {
         "id": 10,
         "name": "Smartwatch Alpha",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
+        "image": "https://i.ibb.co.com/k4bFsZx/watch2.jpg",
         "price": 199,
         "description": "Stay connected and track your health with this smartwatch.",
         "category": "Wearable",
@@ -147,16 +147,16 @@
     },
     {
         "id": 11,
-        "name": "Electric Scooter Z3",
-        "image": "https://i.ibb.co.com/7t9gR8c/phone2.png",
-        "price": 799,
-        "description": "Eco-friendly and lightweight electric scooter for city commuting.",
-        "category": "Transport",
-        "company": "EcoRide",
+        "name": "BassBoost Wireless Headphones",
+        "image": "https://i.ibb.co.com/GpgpK7t/headphone1.jpg",
+        "price": 249,
+        "description": "Wireless headphones with deep bass, clear sound, and up to 30 hours of battery life.",
+        "category": "Accessories",
+        "company": "AudioWave",
         "availableColors": [
             "Black",
-            "White",
-            "Red"
+            "Blue",
+            "White"
         ],
         "ratings": 4
     },
