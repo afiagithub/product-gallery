@@ -1,8 +1,41 @@
-# React + Vite
+# Website Name
+techgallery-tech-store-website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Live Site URL
+https://techgallery-afia.netlify.app/
 
-Currently, two official plugins are available:
+# Features
+* **Home** page is used for product showcasing.
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Tech Details** page shows detail information of that specific product.
+<br>
+
+# Characteristics
+* Navigation Bar is fixed across all the pages of the website.
+<br>
+
+* Footer section is fixed across all the pages of the website
+<br>
+
+# Key Technology
+* React
+* Tailwind CSS
+
+# Used npm packages -
+* React Axios
+* Tanstack QUery
+* React-tooltip
+* React helmet async
+* React Icons
+
+<br>
+
+# Run the Project
+If you want to clone and locally run this project, these are the steps you need to follow (you will need [node](https://nodejs.org/en) installed):
+```
+git clone https://github.com/afiagithub/product-gallery
+cd product-gallery
+npm install
+npm run dev
+```
