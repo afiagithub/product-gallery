@@ -7,7 +7,7 @@ const Navbar = () => {
         <li className="bg-transparent mx-2"><NavLink className={({ isActive }) => isActive ? "border-2 border-[#921A40] text-[#921A40]"
             : "border-2 border-transparent"} to="/about">About</NavLink></li>
         <li className="bg-transparent mx-2"><NavLink className={({ isActive }) => isActive ? "border-2 border-[#921A40] text-[#921A40]"
-            : "border-2 border-transparent"} to="/add-product">Add Product</NavLink></li>
+            : "border-2 border-transparent"} to="/contact">Contact</NavLink></li>
     </>
     return (
         <div className="navbar px-6 md:px-12 lg:px-20 py-5 bg-[#E7717D] text-white">
@@ -35,7 +35,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <a className="btn btn-ghost font-rubik text-2xl lg:text-3xl font-medium 
-                text-[#921A40]">Snowbell</a>
+                text-[#921A40]">TechGallery</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 font-semibold">

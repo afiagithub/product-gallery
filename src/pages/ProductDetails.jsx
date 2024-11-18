@@ -4,6 +4,8 @@ import { useState } from 'react';
 import LoadingSpinner from '../components/LoadingSpinner';
 import axios from 'axios';
 import { useQuery } from '@tanstack/react-query';
+import { IoMdStar } from "react-icons/io";
+import { Helmet } from "react-helmet-async";
 
 const ProductDetails = () => {
     const [techList, setTechList] = useState([]);
@@ -22,13 +24,19 @@ const ProductDetails = () => {
         return <LoadingSpinner />
     }
     return (
-        <div className="hero mx-auto lg:mt-5">
-            <div className="flex flex-col lg:flex-row lg:justify-start lg:items-start gap-10">
+        <div className="hero mx-auto my-10 lg:my-16">
+            <Helmet>
+                <title>TechGallery | Tech Details</title>
+            </Helmet>
+            <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start gap-10 w-5/6 mx-auto">
                 <div className="lg:w-1/2 mx-auto flex flex-col justify-center rounded-3xl">
                     <img src={newTech.image} className="rounded-lg shadow-2xl w-full" />
                 </div>
                 <div className="lg:w-3/5">
                     <h1 className="text-4xl font-bold font-play">{newTech.name}</h1>
+                    <p className="flex flex-row gap-1 font-bold mb-5 mt-3">Rating:
+                        <span className="font-semibold">{newTech.ratings}</span>
+                        <IoMdStar className="text-yellow-400 text-lg justify-center items-center" /></p>
                     <p className="py-3 px-2 font-bold w-full bg-black text-white rounded-xl">Description</p>
                     <p className="py-3 px-3"><span className="font-bold"></span> {newTech.description}...</p>
 

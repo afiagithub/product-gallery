@@ -12,27 +12,28 @@ const Footer = () => {
                     <div className="w-full -mx-6 lg:w-2/5">
                         <div className="px-6">
                             <a href="#" className="text-[#2D3663] font-bold text-2xl">
-                                Snowbell
+                                TechGallery
                             </a>
 
                             <p className="max-w-sm mt-2 text-gray-500 text-sm">
-                                Join our community and stay connected for exclusive offers, new arrivals, and more. Wear your story with Snowbell.
+                                Join our community and stay connected for exclusive offers, new arrivals, 
+                                and more. Shop with us for your tech trove.
                             </p>
 
                             <div className="flex mt-6 -mx-2 gap-5">
-                                <a className="text-xl" data-tooltip-id="fb-page" data-tooltip-content="https://www.facebook.com/Snowbell"
+                                <a className="text-xl" data-tooltip-id="fb-page" data-tooltip-content="https://www.facebook.com/TechGallery"
                                     data-tooltip-place="bottom">
                                     <FaFacebookF />
                                 </a>
                                 <Tooltip id="fb-page" />
 
-                                <a className="text-xl" data-tooltip-id="twitter-page" data-tooltip-content="https://www.twitter.com/Snowbell"
+                                <a className="text-xl" data-tooltip-id="twitter-page" data-tooltip-content="https://www.twitter.com/TechGallery"
                                     data-tooltip-place="bottom">
                                     <FaTwitter />
                                 </a>
                                 <Tooltip id="twitter-page" />
 
-                                <a className="text-xl" data-tooltip-id="instagram-page" data-tooltip-content="https://www.instagram.com/Snowbell"
+                                <a className="text-xl" data-tooltip-id="instagram-page" data-tooltip-content="https://www.instagram.com/TechGallery"
                                     data-tooltip-place="bottom">
                                     <FaInstagram />
                                 </a>
@@ -47,7 +48,7 @@ const Footer = () => {
                                 <h3 className="text-[#2D3663] uppercase font-bold">Pages</h3>
                                 <a href="/" className="block mt-2 text-sm text-[#2D3663]  hover:underline">All Products</a>
                                 <a href="/about" className="block mt-2 text-sm text-[#2D3663]  hover:underline">About</a>
-                                <a href="/add-product" className="block mt-2 text-sm text-[#2D3663]  hover:underline">Add Product</a>
+                                <a href="/contact" className="block mt-2 text-sm text-[#2D3663]  hover:underline">Contact</a>
                             </div>
 
                             <div>
@@ -60,7 +61,7 @@ const Footer = () => {
                             <div>
                                 <h3 className="text-[#2D3663] uppercase font-bold">Contact</h3>
                                 <span className="block mt-2 text-sm text-[#2D3663]  hover:underline">+1 234 567 999</span>
-                                <span className="block mt-2 text-sm text-[#2D3663]  hover:underline">snowbell@gmail.com</span>
+                                <span className="block mt-2 text-sm text-[#2D3663]  hover:underline">techgallery@gmail.com</span>
                             </div>
                         </div>
                     </div>
@@ -69,7 +70,7 @@ const Footer = () => {
                 <hr className="h-px my-6 bg-gray-200 border-none" />
 
                 <div>
-                    <p className="text-center text-gray-500 ">© Snowbell 2024 - All rights reserved</p>
+                    <p className="text-center text-gray-500 ">© TechGallery 2024 - All rights reserved</p>
                 </div>
             </div>
         </footer>
