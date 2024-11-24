@@ -11,6 +11,9 @@ https://techgallery-afia.netlify.app/
 * **Tech Details** page shows detail information of that specific product.
 <br>
 
+* Can filter out the product based on category, price range and also search by name
+<br>
+
 # Characteristics
 * Navigation Bar is fixed across all the pages of the website.
 <br>
