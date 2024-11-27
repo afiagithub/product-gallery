@@ -24,10 +24,11 @@ https://techgallery-afia.netlify.app/
 # Key Technology
 * React
 * Tailwind CSS
+* DaisyUI
 
 # Used npm packages -
 * React Axios
-* Tanstack QUery
+* Tanstack Query
 * React-tooltip
 * React helmet async
 * React Icons
